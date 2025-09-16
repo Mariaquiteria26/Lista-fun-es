@@ -98,9 +98,20 @@
 
 
 #Q10
-cont = 0
-N = int(input("Digite um número: "))
-for i in range(1, N):
-    if i % 2 == 0:
-        cont += i
-print(f"A soma é {cont}")
+
+# cont = 0
+# N = int(input("Digite um número: "))
+# for i in range(1, N):
+#     if i % 2 == 0:
+#         cont += i
+# print(f"A soma é {cont}")
+
+
+#Q11
+
+Escolha = int(input("Digite um número: "))
+Escolha2 = int(input("Digite outro número: "))
+print("escolha uma das operações: +, -, *, /")
+operação = input("Digite sua escolha: ")
+if operação == '+': 
+    
