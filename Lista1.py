@@ -93,42 +93,9 @@ def vogais(palavra):
 
 
 #Q10
-
-# cont = 0
-# N = int(input("Digite um número: "))
-# for i in range(1, N):
-#     if i % 2 == 0:
-#         cont += i
-# print(f"A soma é {cont}")
-
-
-#Q11
-
-# def calculadora(a, b, op):
-#     if op == "+":
-#        return a + b 
-#     elif op == "-":
-#         return a - b
-#     elif op == "*":
-#         return a * b
-#     elif op == "/":
-#         return a / b
-# print(calculadora(5, 4, "*"))
-    
-
-#Q12
-
-# def primo(a):
-#     primo = 0
-#     for n in range(1, a):
-#      if a % n == 0:
-#         primo += 1
-#     if primo > 2:
-#        return "nao é primo"
-#     else:
-#        return "é primo"
-# print(primo(10))
-
-
-#Q13
-
+cont = 0
+N = int(input("Digite um número: "))
+for i in range(1, N):
+    if i % 2 == 0:
+        cont += i
+print(f"A soma é {cont}")
