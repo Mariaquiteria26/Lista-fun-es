@@ -71,19 +71,14 @@
 
 #Q8
 
-# def vogais(palavra):
-#     cont = 0
-#     for letra in palavra:
-#         if letra  in 'aeiou':
-#             cont += 1
-#     return cont
-# print(vogais("Lohane e Quiteria"))
-        
+def vogais(palavra):
+    cont = 0
+    for letra in palavra:
+        if 
 
-#9
 
-# from random import randint
 
+#Q9
 
 # numero = randint(1, 20)
 # while True:
@@ -98,9 +93,42 @@
 
 
 #Q10
-cont = 0
-N = int(input("Digite um número: "))
-for i in range(1, N):
-    if i % 2 == 0:
-        cont += i
-print(f"A soma é {cont}")
+
+# cont = 0
+# N = int(input("Digite um número: "))
+# for i in range(1, N):
+#     if i % 2 == 0:
+#         cont += i
+# print(f"A soma é {cont}")
+
+
+#Q11
+
+# def calculadora(a, b, op):
+#     if op == "+":
+#        return a + b 
+#     elif op == "-":
+#         return a - b
+#     elif op == "*":
+#         return a * b
+#     elif op == "/":
+#         return a / b
+# print(calculadora(5, 4, "*"))
+    
+
+#Q12
+
+# def primo(a):
+#     primo = 0
+#     for n in range(1, a):
+#      if a % n == 0:
+#         primo += 1
+#     if primo > 2:
+#        return "nao é primo"
+#     else:
+#        return "é primo"
+# print(primo(10))
+
+
+#Q13
+
