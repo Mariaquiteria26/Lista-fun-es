@@ -71,10 +71,10 @@
 
 #Q8
 
-def vogais(palavra):
-    cont = 0
-    for letra in palavra:
-        if 
+# def vogais(palavra):
+#     cont = 0
+#     for letra in palavra:
+#         if 
 
 
 
@@ -93,9 +93,9 @@ def vogais(palavra):
 
 
 #Q10
-cont = 0
-N = int(input("Digite um número: "))
-for i in range(1, N):
-    if i % 2 == 0:
-        cont += i
-print(f"A soma é {cont}")
+# cont = 0
+# N = int(input("Digite um número: "))
+# for i in range(1, N):
+#     if i % 2 == 0:
+#         cont += i
+# print(f"A soma é {cont}")
